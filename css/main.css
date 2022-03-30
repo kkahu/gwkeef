@@ -7,7 +7,7 @@
 section .contants_wrap { padding: 30px 20px; }
 
 section .contants_wrap .organization .contants_box { margin-top: 2px; margin-bottom: 16px; border: none; }
-section .contants_wrap .organization .contants_box a { color: var(--white); font-size:var(--font-size--me); font-weight: bold; }
+section .contants_wrap .organization .contants_box a { color: var(--white); font-size:var(--font-size--me); font-weight: bold; text-shadow: var(--text-shadow); }
 section .contants_wrap .banner .row div div { padding: 19px 16px; text-align: center; }
 section .contants_wrap .banner .row div div img { width: 100%; height:56px; box-shadow: var(--box-shadow); transition: 0.4s; }
 section .contants_wrap .banner .row div div img:hover { box-shadow: var(--box-shadow--active); }
@@ -17,7 +17,7 @@ section .contants_wrap .banner .row .col-md-12.col-sm-4.col-xs-12 { padding: 0; 
 #two section .contants_wrap .row .col-lg-12 .col-md-6.wow.fadeInUp { padding: 0; } /*BT sm 너비에서 패딩 제거*/
 #two section .contants_wrap .row .col-lg-12 .col-md-6.wow.fadeInUp:first-child { padding-right: 15px } /*환경관련기관 업체배너 사이*/
 #two section .contants_wrap .organization .contants_box { padding: 17px 20px; letter-spacing: 1px; } /*환경관련기관 배너*/
-#two section .contants_wrap .organization .contants_box i { float: right; color: var(--white); font-size: var(--font-size--bg); }
+#two section .contants_wrap .organization .contants_box i { float: right; color: var(--white); font-size: var(--font-size--bg); text-shadow: var(--text-shadow); }
 #two section .contants_wrap .banner .row div div { padding: 20px 16px; text-align: center; } /*업체배너*/
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
