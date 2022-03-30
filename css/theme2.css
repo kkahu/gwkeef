@@ -3,7 +3,7 @@
 
   --point-color:#104990;
 
-  --header-bg:linear-gradient(to right,#0ba494,#04878a);
+  --header-bg:linear-gradient(to right,#0ba494,#099b9d);
   --header-bg--active:rgba(255, 255, 255, 1);
   --lnb-bg--active:#fafafa;
   --content-bg:#f4f6fa;
@@ -76,7 +76,7 @@
   --orange:#ff5f2e;
   --yellow:#ffb400;
   --light-yellow:#ffd02b;
-  --deep-green:#04878a;
+  --deep-green:#099b9d;
   --green:#0ba494;
   --deep-blue:#104990;
   --blue:#0158C2;
@@ -95,7 +95,7 @@
 
   --gradient-one:linear-gradient(top, #fff, #f2f2f2);
   --gradient-two:linear-gradient(to right,#2e90bc,#3682b4);
-  --gradient-three:linear-gradient(to right,#0ba494,#04878a);
+  --gradient-three:linear-gradient(to right,#0ba494,#099b9d);
   --gradient-four:linear-gradient(to right,#4b56a4,#5c5099);
   --gradient-five:linear-gradient(to right,#236d9e,#28558d);
   --gradient-six:linear-gradient(to right,#304b7a,#2c4362);
