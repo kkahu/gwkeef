@@ -6,7 +6,7 @@
 /* section */
 section .contants_wrap { padding: 30px 20px; }
 
-section .contants_wrap .organization .contants_box { margin-top: 2px; margin-bottom: 16px; }
+section .contants_wrap .organization .contants_box { margin-top: 2px; margin-bottom: 16px; border: none; }
 section .contants_wrap .organization .contants_box a { color: var(--white); font-size:var(--font-size--me); font-weight: bold; }
 section .contants_wrap .banner .row div div { padding: 19px 16px; text-align: center; }
 section .contants_wrap .banner .row div div img { width: 100%; height:56px; box-shadow: var(--box-shadow); transition: 0.4s; }
