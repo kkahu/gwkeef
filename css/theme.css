@@ -1,0 +1,104 @@
+:root {
+  --main-bg:url("../images/bg-01.jpg");
+
+  --point-color:#0158C2;
+
+  --header-bg:rgba(255, 255, 255, 0);
+  --header-bg--active:rgba(255, 255, 255, 1);
+  --lnb-bg--active:#fafafa;
+  --content-bg:#ffffff;
+  --box-bg:rgba(255, 255, 255, 0.8);
+  --input-bg:#ffffff;
+  --input-bg--info-box:#cccccc;
+  --th-bg:#e3ecff;
+  --td-bg:#ffffff;
+  --td-bg--2n:#fafafa;
+  --footer-bg:rgba(255, 255, 255, 0.8);
+  --footer-bg--active:rgba(255, 255, 255, 1);
+
+  --tnb-color:#ffffff;
+  --tnb-color--active:#484848;
+  --gnb-color:#ffffff;
+  --gnb-color--active:#484848;
+  --lnb-color:#484848;
+  --lnb-color--active:#484848;
+  --footer-color:#484848;
+  --content-color:#484848;
+  --input-color:#484848;
+  --placeholder-color:#686868;
+
+  --border-color--box:#eeeeee;
+  --border-color--table:#cccccc;
+  --border--box:1px solid #eeeeee;
+  --border--table:1px solid #dddddd;
+
+  --box-shadow:0 2px 12px -3px #a8b6c6;
+  --box-shadow--active:0 2px 12px -3px #5c6269;
+  --text-shadow:0 0 12px #666666;
+  --text-shadow--deep:0px 0px 2px rgba(0, 0, 0, 0.6), 0px 0px 4px rgba(0, 0, 0, 0.4), 0px 0px 6px rgba(0, 0, 0, 0.2);
+  --text-shadow--dark:0px 0px 2px rgba(0, 0, 0, 0.8), 0px 0px 4px rgba(0, 0, 0, 0.6), 0px 0px 6px rgba(0, 0, 0, 0.4);
+
+  --border-radius:1px;
+
+  --header-size:100px;
+  --header-size--mobile:60px;
+  --input-size:22px;
+  
+  --input-font-size:14px;
+
+  --title-font-size:56px;
+  --content-font-size:14px;
+  
+  --font-size--zt:30px;
+  --font-size--bg:20px;
+  --font-size--lg:16px;
+  --font-size--md:14px;
+  --font-size--sm:12px;
+  --font-size--mn:11px;
+
+  --th-size--lg:30px;
+  --td-size--lg:30px;
+  --th-size--md:22px;
+  --td-size--md:22px;
+  --th-size--sm:16px;
+  --td-size--sm:16px;
+
+  --transperant:transperant;
+  --white:#FFFFFF;
+  --light-white:#f2f2f2;
+  --deep-gray:#444444;
+  --gray:#666666;
+  --light-gray:#cccccc;
+  --deep-red:#b3011c;
+  --red:#E4022E;
+  --light-red:#db3434;
+  --deep-orange:#f04d22;
+  --orange:#ff5f2e;
+  --yellow:#ffb400;
+  --light-yellow:#ffd02b;
+  --deep-green:#3A846D;
+  --green:#04A060;
+  --deep-blue:#001f85;
+  --blue:#0158C2;
+  --deep-sky-blue:#0073d1;
+  --sky-blue:#00a5fd;
+  --deep-navy:#1D2641;
+  --navy:#2a3557;
+  --gray-shdow:#dddddd;
+  --red-shdow:#febac6;
+  --orange-shdow:#fbcabd;
+  --yellow-shdow:#feeac7;
+  --green-shdow:#c8f0d3;
+  --blue-shdow:#9ecafe;
+  --sky-blue-shdow:#c6ebff;
+  --navy-shdow:#b1bcda;
+
+  --gradient-one:linear-gradient(top, #fff, #f2f2f2);
+  --gradient-two:linear-gradient(to right,#2e90bc,#3682b4);
+  --gradient-three:linear-gradient(to right,#0ba494,#099b9d);
+  --gradient-four:linear-gradient(to right,#4b56a4,#5c5099);
+  --gradient-five:linear-gradient(to right,#236d9e,#28558d);
+  --gradient-six:linear-gradient(to right,#304b7a,#2c4362);
+  --gradient-seven:linear-gradient(90deg, #00aca9 0%, #1e9fd5 50%, #2d2b6f 100%);
+
+  }

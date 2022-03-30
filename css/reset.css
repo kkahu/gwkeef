@@ -1,0 +1,45 @@
+@charset utf-8;
+
+/* reset */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, a, button,
+blockquote, pre, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp, small, strong,
+sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+thead, tbody, tfoot, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; outline: none;
+}
+
+/* box model width - include border, margin, padding */
+*, *::before, *::after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+
+/* mobile text size */
+html, body { -webkit-text-size-adjust: none; text-size-adjust: none; }
+
+/* block */
+article, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section { display: block; }
+
+/* base */
+* { color: var(--content-color); font-size: var(--content-font-size); font-style: normal; text-decoration: none; }
+
+img { vertical-align: middle; }
+ol, ul, li { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, legend { display: none; width: 0; height: 0; font-size: 0; line-height: 0; overflow: hidden; }
+
+a, button { color: var(--content-color); text-decoration: none; cursor: pointer; }
+a:hover, button:hover, a:active, button:active, a:visited, button:visited { color: var(--content-color); text-decoration: none; }
+
+input, select, textarea { margin: 0 auto; padding: 0 4px; vertical-align: middle; box-shadow: none; resize: none; }
+input::placeholder, textarea::placeholder { color: var(--placeholder-color); }
+input:-internal-autofill-selected { background: var(--white); }
+input:-ms-autofill { -ms-box-shadow: 0 0 0 1000px var(--white) inset; }
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0 1000px var(--white) inset; }
+
+/* mobile - scroll bar */
+body::-webkit-scrollbar { display: none!important; }
+body { scrollbar-width: none; }
