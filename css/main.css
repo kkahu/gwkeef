@@ -26,12 +26,12 @@ section .contants_wrap .organization .contants_box a { color: var(--white); font
 #two section .contants_wrap .organization .contants_box { padding: 14px; letter-spacing: 1px; } /*환경관련기관 배너*/
 #two section .contants_wrap .organization .contants_box i { float: right; color: var(--white); font-size: var(--font-size--bg); text-shadow: var(--text-shadow); }
 
-
 @media screen and (min-width: 767px) and (max-width: 992px){
   #two section .contants_wrap .organization .contants_box .ti-arrow-circle-right { display: none; }
 }
 
 @media screen and (max-width: 1200px ){
+  section .contants_wrap { padding: 10px 20px; }
   #two header .menu_wrap div.tnb { position: absolute; top: 20px; left: 30px; text-align: left; }
 }
 @media screen and (max-width: 992px ){
