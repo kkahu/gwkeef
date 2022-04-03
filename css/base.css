@@ -370,13 +370,13 @@ footer .contants_wrap ul.list--inline { display: block; width: 100%; }
 .owl-theme .owl-dots .owl-dot.active { opacity: 1; background: var(--white); }
 .owl-theme .owl-dots .owl-dot span { margin: 0; width: 0px; height: 0px; }
 /* slide */
-.slide { position: relative; height: 230px; text-align: center; background-size: cover; background-position: center center; }
+.slide { position: relative; text-align: center; background-size: cover; background-position: center center; }
 .slide.slide1 { background: url(../images/bg-04.jpg) no-repeat 50% 40%; background-size: cover; }
 .slide.slide2 { background: url(../images/bg-00.jpg) no-repeat 50% 0%; background-size: cover; }
 .slide.slide3 { background: url(../images/bg-05.jpg) no-repeat 50% 0%; background-size: cover; }
 
-.slide h2 { color: var(--white); font-size: var(--font-size--zt); text-shadow: var(--text-shadow--dark); margin: 60px 0 20px; letter-spacing: 10px;}
-.slide p { color: var(--white); font-size: var(--font-size--lg); text-shadow: var(--text-shadow--dark); font-weight: bold; }
+.slide h2 { color: var(--white); font-size: var(--font-size--zt); text-shadow: var(--text-shadow--dark); margin: 90px 0 20px; letter-spacing: 10px; }
+.slide p { color: var(--white); font-size: var(--font-size--lg); text-shadow: var(--text-shadow--dark); font-weight: bold; letter-spacing: 2px; }
 .owl-item.active .slide h2 { -webkit-animation: fadeInUp 1s ease .2s both; -moz-animation: fadeInUp 1s ease .2s both; -ms-animation: fadeInUp 1s ease .2s both; -o-animation: fadeInUp 1s ease .2s both; animation: fadeInUp 1s ease .2s both; }
 .owl-item.active .slide p { -webkit-animation: fadeIn 1s ease .3s both; -moz-animation: fadeIn 1s ease .3s both; -ms-animation: fadeIn 1s ease .3s both; -o-animation: fadeIn 1s ease .3s both; animation: fadeIn 1s ease .3s both; }
 @media screen and (max-width: 767px) {
@@ -384,7 +384,8 @@ footer .contants_wrap ul.list--inline { display: block; width: 100%; }
 	.owl-theme .owl-dots { display: none!important; }
 }
 @media screen and (max-width: 425px) {
-	.slide h2 { text-shadow: var(--text-shadow--deep); letter-spacing: 0.2px; }
+	.slide h2 { margin: 80px 0 20px; text-shadow: var(--text-shadow--deep); letter-spacing: 0.2px; }
+	.slide p { letter-spacing: 0.2px; }
 }
 
 /********************/
