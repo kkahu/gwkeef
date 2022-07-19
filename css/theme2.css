@@ -3,8 +3,8 @@
 
   --point-color:#104990;
 
-  /* --header-bg:linear-gradient(to right,#2cb8aa,#099b9d); */
-  --header-bg:linear-gradient(to right,#2cb856,#099d35);
+  --header-bg:linear-gradient(to right,#2cb8aa,#099b9d);
+  /* --header-bg:linear-gradient(to right,#2cb856,#099d35); */
   --header-bg--active:rgba(255, 255, 255, 1);
   --lnb-bg--active:#fafafa;
   --content-bg:#f4f6fa;
